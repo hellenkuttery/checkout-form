@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+body{
+   font-family: 'Montserrat Alternates', sans-serif; 
+}
+h1{
+   text-align: center;
+}
+.container{
+   display:flex;
+}
+.contact{
+   width: 50%;
+}
+.part1 h2{
+   font-size: 1.2rem;
+}
+
+.emailInput,
+.phoneInput,
+.fullnameInput,
+.addressInput,
+.cityInput,.postCodeInput{
+   width: 100%;
+   background-color: inherit;
+   border:1px solid gray;
+   border-radius:5px;
+   padding:0.2rem;  
+   margin-top:5px;
+}
+.emailInput input,
+.phoneInput input,
+.fullnameInput input,
+.addressInput input,
+.cityInput input,
+.postCodeInput input{
+   border:none;
+   outline:none;
+}
+.email,.phone,.fullname,.address,.city,.addressPart{
+   margin-top:1rem;
+}
+.part2{
+   margin-top:3rem;
+}
+select{
+   border:none;
+  
+}
+.addressPart{
+   display: flex;
+   gap:5px;
+   width: 100%;
+}
+.selectInput{
+  
+   border:1px solid gray;
+   border-radius: 5px;
+   padding:0.2rem;
+   margin-top:5px;
+
+}
+.info{
+   margin-top:1rem;
+}
+.continue{
+   border:none;
+   background-color: orange;
+   padding:1rem;
+   border-radius: 0.5rem;
+   color:white;
+   float: right;
+}
+.products{
+   
+}
+.bag,.shoes{
+   display: flex;
+}
+.bag img,.shoes img{
+   width: 40%;
+   height: 60%;
+   border-radius:1rem;
+}
